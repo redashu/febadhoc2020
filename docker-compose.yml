@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+ pyapp:
+  image: ashupyapp:v1
+  build: .
+  container_name: pyc
+
