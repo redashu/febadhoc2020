@@ -1,4 +1,4 @@
-FROM python
-WORKDIR  /opt/
+FROM nginx
+WORKDIR  /usr/share/nginx/html/
 ADD .  .
-CMD ["python","hello.py"]
+
