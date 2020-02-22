@@ -1,7 +1,9 @@
 version: '3.7'
 services:
  pyapp:
-  image: ashupyapp:v1
+  image: ashuwebapp:adhocv1
   build: .
-  container_name: pyc
+  container_name: webcont
+  ports:
+   - "1122:80"
 
